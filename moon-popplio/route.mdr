@@ -1,0 +1,425 @@
+:::tracker{species="Popplio" baseStats="[[50,54,54,66,56,40], [60,69,69,91,81,50]]" hiddenPower="true" generation="7"}
+5:
+	6 -> 0, 0, 0, 0, 0, 1
+	7 -> 0, 1, 0, 0, 0, 2
+	8 -> 0, 1, 0, 0, 0, 4
+	9 -> 0, 1, 2, 0, 0, 4
+	10 -> 0, 1, 3, 0, 0, 4
+	11 -> 1, 2, 3, 0, 0, 4
+	12 -> 1, 2, 3, 1, 0, 6
+	13 -> 1, 3, 3, 1, 0, 7
+	14 -> 1, 3, 3, 1, 1, 10
+	15 -> 1, 3, 3, 1, 2, 12
+	16 -> 1, 3, 3, 1, 2, 18
+	17 -> 2, 5, 3, 1, 2, 18
+	18 -> 2, 5, 3, 3, 2, 19
+	19 -> 4, 5, 3, 3, 2, 20
+	20 -> 8, 5, 3, 3, 2, 20
+	21 -> 8, 7, 3, 3, 2, 20
+	22 -> 8, 7, 5, 5, 3, 20
+	23 -> 8, 7, 5, 5, 3, 24
+	24 -> 8, 9, 5, 5, 5, 26
+
+:::
+
+# Pokémon Moon
+### Any% Primarina notes
+
+----
+
+**Source**: [Original Notes by Wartab](https://docs.google.com/document/d/1wpGbRZFX61OGna0bFDfDA-g7mqQDAhwORln2FtkSIMA/edit?tab=t.0)
+
+:::card{theme=warning}
+
+### Before the Run starts:
+
+*You can prepare a save file at your bed before starting the run (check image for specifics) DO NOT set any setting before hand as they are part of the run*   
+
+----
+
+- Select the **Boy** character   
+
+:info[*Girl loses around 3 seconds to recieving the Make-Up Bag from Lillie in Hau'Oli*]{color=grey}
+- Pick a 1 character name *'A' for example*
+
+----
+
+**Time is a important factor of this run, you have 2 Options:**
+- **9:00** means night time. This skips a small bit of text in the Altar of the Moone cutscene
+- **18:00** means day time. This will make your earlygame easier as Yungoos is the encounter instead of Rattata, which is much easier to run from *(recommended for beginners)*   
+
+*Either of these times means you will **prevent Hail** on Victory Road which occurs between 06:00 and 11:59*   
+
+----
+
+**Make sure to include a soft reset of the game or boot from 3DS Home Screen in your submitted footage if you would like your run to be leaderboard valid**
+
+:::
+
+----
+
+
+## The Notes
+
+:::card{theme=info}
+**Options:**
+- Text Speed - **Fast**
+- Battle Effects - **Off**
+- Battle Style - **Set**
+- *(Button Mode    **L=A**)*   
+
+*Setting the Button Mode to L=A is more comfortable for a lot of runners,  but you lose about 5 seconds to doing this when being introduced to the Poké Finder in Hau’Oli City.*
+:::
+
+:::dropdown{title="More Detailed Directions" theme="error"}
+- Head oustide your room and talk to Kukui
+- Go grab your bag
+- Follow Kukui to Iki Town
+- Follow Lillie through Mahalo Trail
+- Save Nebby on bridge
+:::
+
+Pick :info[**Popplio**]{color=blue}   
+
+*Optionally, you can check your Popplio’s stats directly after obtaining it. This takes about 10 seconds, but lets you detect if your Popplio is good enough much earlier.*   
+
+
+:::card{theme=info}
+**Pokémon Refresh:**
+- Feed 3 Beans.
+- Pet 6 times:   
+
+*Nose -> Right Eye -> Nose -> Left Eye -> Nose -> Right Eye.*
+:::
+
+- Try to leave Iki Town
+
+:::if{source="Popplio" condition="speed=(19- / x / x)" theme=info}
+Your Popplio's speed is too low. It is a RESET
+:::
+
+:::if{source="Popplio" condition="spa=(# / 7- / x)" theme=info}
+Your Popplio's special attack is too low. It is a RESET
+:::
+
+:::::trainer[ Hau 1]
+  :::pokemon[Litten]
+    - Water Gun x2
+  :::
+:::::
+
+If didn't already, check Popplio's level 5 stats at the level up screen and then level 6 stats. 
+
+:::if{source="Popplio" condition="defense=(8- / x / x)" theme=info level=6}
+Your Popplio's defense is low. This may cause the run to be more difficult; consider resetting.
+:::
+
+:info[**Free heal**]{color=pink}
+
+Head to Route 1 to the right of your house.
+
+* **Route 1:** Catch the forced **Pikipek**.
+
+:::::trainer[Youngster Jimmy]
+  :::pokemon[Rattata]{info="Outspeed at 10+ Speed (x / 4+ / 4+)" infoColor=blue}
+    - Water Gun x2
+  :::
+:::::
+
+**→ Check if you have 10 or 11 Sp. Def, this is bad Sp. Def.**
+
+:info[**FREE HEAL**]{color=pink}
+
+:::::trainer[Hau 2]
+  :::pokemon[Pichu]
+    - Water Gun x3
+  :::
+  :::pokemon[Litten]
+    - Water Gun x2
+    ::damage[Litten's Scratch]{source="Popplio" offensive=false movePower=40 level=7 evs=0 opponentLevel=7 opponentStat=15 combatStages=0--5}
+  :::
+:::::
+
+* **Refresh:** Pet (2 beans, 3 pets) before entering Pokémon Center.
+
+:::if{source="Popplio" condition="spdef=10-11" level=7}
+### Early Shopping :info[10-11 Sp.Def (0 - 16 / x / x) at Lvl 7]{Color=blue}
+> #### Buy (Left Vendor)
+> - 20 Repels (^^)
+> - 1 Awakening (<^)
+> - 2 Antidotes (^^)
+
+
+- **PC:** Deposit Pikipek.
+- **Cafe:** Talk to the guy for a **Rare Candy**.
+:::
+
+## School
+
+:::::trainer[Youngster Joey(west of school behind gate)]
+  :::pokemon[Metapod]
+    - Water Gun x2
+  :::
+:::::
+
+:::::trainer[Preschooler Mia(in school, right of the stairs)]
+  :::pokemon[Bonsly]
+    :::if{source="Popplio" condition="spattack=20+" level=9}
+    - Water Gun (+Disarming Voice)
+    - :info[Water Gun is 12 / 16 at 20+ Sp. Atk (x / x / 24+)]{color=red}
+    :::
+    :::if{source="Popplio" condition="spattack=19-" level=9}
+    - Water Gun + Disarming Voice
+    :::
+  :::
+:::::
+
+:::::trainer[Youth Athlete Hiromi(east outside of school)]
+  :::pokemon[Pikipek]{info="faster at 16+ Speed (x / 29+ / 19+), speed tie at 15 Speed (x / 19 - 28 / 9 - 18)" infoColor=blue}
+    - Water Gun x2
+  :::
+:::::
+- Potion if got damaged multiple times
+:::::trainer[Rising Star Joseph]
+  :::pokemon[Grimer]
+    - Water Gun x3
+    - :info[If Bad SpD: Stall/Poison to enter Torrent range.]{color=gray}
+  :::
+:::::
+
+:::if{source="Popplio" condition="spatk=(0+ / 0-22 / 0-4) && speed=(29+ / 10+ / 1+)"}
+- **Skip heal at Lillie before Teacher Emily:info[ONLY IF YOU DON'T GET KILLED BY THUNDER SHOCK]{color=red}.**
+:::
+
+:::::trainer[Teacher Emily]
+  :::pokemon[Magnemite]
+    ::damage[Magnemite's Thundershock]{source="Popplio" offensive=false special=true movePower=40 effectiveness=2 stab=true level=11 opponentLevel=8 opponentStat=21}
+    - Water Gun x2-3
+  :::
+  :::pokemon[Meowth (heal as needed)]
+    - :info[Always slower]{color=blue}
+     ::damage[Meowth's Bite]{source="Popplio" offensive=false special=false movePower=60 stab=true level=11 opponentLevel=9 opponentStat=12}
+    - *Antidote if poisoned.*
+    - *Water Gun x2 / Disarming Voice x2
+  :::
+:::::
+
+Follow cutscenes.
+Back out of the Pokémon Finder instead of taking pictures.
+Enter the Pokémon Centre
+
+## Hau'oli City
+
+### Shopping
+:::if{source="Popplio" condition="spdef=12+" level=7}
+> #### Left Vendor
+> - 20 Repels (^^)
+> - 2 Awakenings (^<)
+> - 1 Antidote (^^)
+:::
+> #### Right Vendor
+> - 21 X Sp. Atk (^<)
+> - 3 X Speed (<)
+> - 2 X Defense (>)
+
+Head to the docks south-east.
+
+:::::trainer[Team Skull Grunt]
+  :::pokemon[Zubat]
+    - Water Gun x2
+  :::
+:::::
+
+:::::::trainer[Captain Ilima]
+  :::::pokemon[Yungoos]
+    - :info[faster at 15 Speed (19+ / 3+ / 0+)]{color=blue}
+    - X Sp. Atk
+    :::if{source="Popplio" condition="spatk=(x / x / 18+)"}
+    - Disarming Voice + Water Gun
+    :::
+    :::if{source="Popplio" condition="spatk=(x / x / 17-)"}
+    - Water Gun x2
+    :::
+  :::::
+  :::::pokemon[Smeargle]
+    ::damage[Leafage]{source="Popplio" offensive=false movePower=40 effectiveness=2 level=12 opponentLevel=10 opponentStat=18 opponentStatModifier=1.5 combatStages=0--5}
+    - Torrent at level 10 is less than:calc[floor(hp / 3)]{source="Popplio" level=10} HP
+    - :variable{name="torrent" type="boolean" title="Are you currently in Torrent?"}
+    :::if{source="Popplio" condition="$torrent"}
+       - *Water Gun(+*Water Gun)
+     ::damage[+2 Torrent Water Gun vs Smeargle]{source="Popplio" special=true movePower=40 level=12 stab=true torrent=true evs=1 statModifier=2 opponentLevel=10 opponentStat=15 healthThreshold=32 theme=error}
+     :info[**If you miss the range, attack again immediately because it heals!**]{color=red}
+    :::
+    :::if{source="Popplio" condition="!$torrent"}
+       - X-Defense and Heal
+    :::
+  :::::
+:::::::
+
+## Route 2
+- Head North to Route 2
+- Perform Krystal skip by briefly running into the grass and hugging the corner (this will take some practice to hit consistently!)
+::info[INSERT GIF]{color=red}
+
+:::if{source="Popplio" condition="speed=(0 - 26 / 0 - 11 / 0 - 3)"}
+- If you are dead to Peck, do the following
+- **Before Kaleb:** Open Bag -> Potion + Repel (Do not reapply).
+:::   
+
+
+:::::::trainer[Preschooler Kaleb]
+  :::::pokemon[Spearow]
+    - :info[faster at 17+ Speed (27+ / 12+ / 4+)]{color=blue}
+    ::damage[Peck]{source="Popplio" offensive=false movePower=35 stab=true level=13 opponentLevel=8 opponentStat=14}
+    - Torrent at level 13 is less than:calc[floor(hp / 3)]{source="Popplio" level=13} HP
+    - :variable{name="torrent" type="boolean" title="Are you currently in Torrent?"}
+    :::if{source="Popplio" condition="$torrent"}
+       - *Water Gun
+    :::
+    :::if{source="Popplio" condition="!$torrent"}
+     - Water Gun(+Water Gun)
+     ::damage[Water Gun out of Torrent]{source="Popplio" special=true movePower=40 level=13 stab=true opponentLevel=8 opponentStat=9 healthThreshold=24 theme=error}   
+  :::::
+:::::::
+
+:::::trainer[Team Skull Grunt]
+  :::pokemon[Drowzee]
+    - X Sp. Atk + Water Gun x2
+  :::
+:::::
+- After leaving the berry field, go north around the backpacker without waiting.
+::info[INSERT GIF]{color=red}
+- *(Use a Repel at the grass if you have not done so before fighting Kaleb earlier. Do not reapply this Repel.)*
+
+- Once in the Pokémon Centre, shop at the right vendor.
+
+### **Shopping**
+> #### Right Vendor
+> - **Sell all revives**
+> - **Buy** 7 (max) Super Potions (>)
+
+- Leave the Pokémon Centre.
+- Head to the Trial.
+
+## Verdant Cavern (Trial)
+
+- Talk to the first den.
+:::::trainer[Trial Rats]
+  :::pokemon[Rattata 1]
+    - Disarming Voice + Water Gun
+    - → This Rattata has Hyper Fang (which hurts a lot).
+  :::
+ 
+  - Potion if you feel like a Quick Attack from Rattata could kill you.
+  - Run up, the second Rattata will jump at you automatically.
+
+  :::pokemon[Rattata 2]
+    - Disarming Voice + Water Gun
+    - → This Rattata has Super Fang
+    - → May attempt *Water Gun turn 1 if Super Fang would knock you into Torrent.
+  :::
+::::: 
+- Cross the bridge.
+- Small cutscenes will interrupt your movement. 
+- These cutscenes indicate which den to interact with next.
+- Pickup :info[The X-Defense]{color=green} next to the third den.
+::info[INSERT Picture]{color=red}
+- Potion if you cannot live two Pounds from Drowzee.
+::damage[Drowzee's Pound]{source="Popplio" offensive=false movePower=40 level=14 opponentLevel=10 opponentStat=15}
+
+:::::trainer[Team Skull Grunt]
+  :::pokemon[Drowzee(HAS 34 HP)]
+    - Do whatever does the most of damage BUT :
+    - IF YOU CANNOT KILL DROWZEE IN 3 TURNS :
+    - X-Sp.Atk + Water Gun x2
+    ::damage[Water Gun out of Torrent]{source="Popplio" special=true movePower=40 level=14 stab=true opponentLevel=11 opponentStat=24}  
+    ::damage[Water Gun in Torrent]{source="Popplio" special=true movePower=40 level=14 stab=true torrent=true opponentLevel=11 opponentStat=24}  
+    :::if{source="Popplio" condition="atk=(x / 21+ / 7 - 20)"}
+       ::damage[Popplio's Pound]{source="Popplio" special=false movePower=40 level=14 opponentLevel=10 opponentStat=28}  
+  :::
+:::::
+
+:::::trainer[Raticate]
+   :::pokemon[Raticate]
+    - Disarming Voice x3/*Water Gun
+    - **Teach Aqua Jet over Pound (Slot 1).** :info[*You can mash A*]{color=gray}
+  :::
+:::::
+- Enter the Totem Area
+- Run all the way to the Totem statue.
+- Heal to full with Potions.
+- Use a Repel.
+-   → Say yes to reapplying this Repel 3 times after this point.
+- Disable Experience Share.
+- Leave the bag on the Berry menu for Hala later
+- Save the game if playing it safely.
+
+:::::trainer[Totem Raticate : heal as needed]
+  :::pokemon[Totem Raticate]
+    - :info[If stuck in a heal loop, you may use an X Defense]{color=red}
+    - X Sp. Atk
+    - Disarming Voice Rattata and Raticate
+    - Disarming Voice (Water Gun if Disarming Voice did more than half)
+  :::
+:::::
+
+## End of Melemele
+
+:info[**FREE HEAL**]{color=pink}
+
+- Leave the Totem’s area.
+- Go to the right. :info[INSERT GIF]{color=red}
+- Cross the bridge.
+- Reapply the Repel after the tutorial.
+- Head to Melemele Meadows.
+- Reach Nebby.
+- Reapply your Repel in the Meadows.
+
+:::::trainer[Hau 3]
+  :::pokemon[Pikachu]
+    - X Sp. Atk
+    - Water Gun + Aqua Jet
+  :::
+  :::pokemon[Litten]
+    - *Aqua Jet / *Water Gun / Water Gun
+  :::
+:::::
+
+:info[**FREE HEAL**]{color=pink}
+- Head south.
+- Cross the bridge.
+- Head south to Route 1. :info[INSERT GIF]{color=red}
+- **Equip Oran Berry.**
+- Reapply the Repel on Route 1
+- Head to Iki Town.
+
+
+::damage[Karate Chop]{source="Popplio" offensive=false movePower=50 stab=true level=16 opponentLevel=14 opponentStat=34}
+::damage[K-Chop Crit]{source="Popplio" offensive=false movePower=75 stab=true level=16 opponentLevel=14 opponentStat=34}
+::damage[Fake Out]{source="Popplio" offensive=false movePower=40 level=16 opponentLevel=14 opponentStat=28}
+::damage[1 Hit Arm Thrust]{source="Popplio" offensive=false movePower=15 stab=true level=16 opponentLevel=14 opponentStat=28}
+
+
+:::::trainer[Island Kahuna Hala]
+  :::pokemon[Mankey]
+    :::if{source="Popplio" condition="speed=19+" level=16}
+    - X Speed
+    :::
+    - X Sp. Atk x2
+    - Disarming Voice or *Water Gun
+  :::
+  :::pokemon[Makuhita]
+    - :info[Super Potion if in Fake Out/ 1 Hit Arm Thrust range]{color=blue}
+    :::if{source="Popplio" condition="speed=18-" level=16}
+    - X Speed
+    :::
+    - X Sp. Atk :info[(can skip it if (x / 18+ / 6+) and willing to go for the 13/16 range on Crabrawler(100% at (x / 25+ / 12+))]{color=gray}
+    - *Water Gun / Disarming Voice
+    ::damage[*Water Gun AT +4]{source="Popplio" special=true movePower=40 level=17 torrent=true stab=true statModifier=4 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
+    ::damage[Disarming Voice AT +4]{source="Popplio" special=true movePower=40 level=17 torrent=true statModifier=4 effectiveness=2 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
+  :::
+  :::pokemon[Crabrawler]
+    - *Water Gun / Disarming Voice
+    -    :info[→ Disarming Voice cannot miss if Sand Attacked.]{color=pink}
+  :::
+:::::
